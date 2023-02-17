@@ -3,14 +3,14 @@
 #include <stdlib.h>
 /**
  * main - Entry block
- * Description: print single digit numbers
+ * Description: print 0..9
  * Return: 0
  */
 int main(void)
 {
 	char c = '0';
 
-	while (c < '10')
+	while (c <= '9')
 	{
 		putchar(c);
 		c++;
