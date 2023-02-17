@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 /**
  * main - pr thzt print the type of a  number
  *
