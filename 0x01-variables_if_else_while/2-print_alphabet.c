@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - print alphabet 
+ * main - entry point
  * Description: print alphabets
  * Return: 0
  */
 int main(void)
 {
-	char alphabet = 'a';
+	char m = 'a';
 
-	while (alphabet <= 'z')
+	while (m <= 'z')
 	{
-		putchar(alphabet);
-		alphabet++;
+		putchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
