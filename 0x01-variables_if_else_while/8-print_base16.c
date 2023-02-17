@@ -12,7 +12,8 @@ int main(void)
 
 	for (f = 0; f <= '9'; f++)
 
-		putchar('0' + f);
+		putchar(f);
+
 
 	for (c = 'a'; c <= 'f'; c++)
 
