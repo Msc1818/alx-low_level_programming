@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - check if character is lower case
- * c: character to be checked
+ * c@c: character to be checked
  * @c descriptionn
  * Return: 1 if lowercase 0 otherwhise
  */
