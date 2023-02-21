@@ -2,6 +2,7 @@
 #include "main.h"
 
 /**
+ * main - Entry point
  * print_to_98_Ch
  * @n: put integer from n to98
  * Description: print numbers from n to 98
