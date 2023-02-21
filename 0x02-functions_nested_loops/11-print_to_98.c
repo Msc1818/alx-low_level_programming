@@ -3,6 +3,7 @@
 
 /**
  * main - Entry point
+ * print_to_98:print nember from n to 98
  * print_to_98_Ch
  * @n: put integer from n to98
  * Description: print numbers from n to 98
