@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * print the first 50 fibonnaci number 
- * Return: Always 0 (Success)
- */
+* main - Entry point
+* print the first 50 fibonnaci number
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int i;
