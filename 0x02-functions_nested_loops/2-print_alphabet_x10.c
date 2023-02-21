@@ -11,7 +11,9 @@
 	int f;
 
 	for (f = 0; f < 10; f++)
+	{
 		for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
+	}
 	_putchar('\n');
 }
