@@ -2,8 +2,8 @@
 
 /**
  * _isalpha - check if character is lower case
- * c@c: character to be checked
- * @c descriptionn
+ * @c: character to be checked
+ * c: descriptionn
  * Return: 1 if lowercase 0 otherwhise
  */
 int _isalpha(int c)
