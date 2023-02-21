@@ -4,7 +4,7 @@
 /**
  * print_to_98_Ch
  * @n: put integer from n to98
- * Description
+ * Description: print numbers from n to 98
  * from n to 98, followed by a new line.
  * Return: Nothing
  */
