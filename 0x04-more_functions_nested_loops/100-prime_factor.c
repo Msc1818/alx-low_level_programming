@@ -8,24 +8,20 @@
  */
 int main(void)
 {
-	long int a;
-	long int x;
-	long int b;
+	unsigned long e = 2;
+	unsigned long pf = 0;
+	unsigned long X = 612852475143;
 
-	x = 612852475143;
-	for (a = 1; a <= x; a++)
+	while (X > e)/* B */
 	{
-		if (x % a == 0)
+		while (X % e == 0)/* C */
 		{
-			if (x == a)
-			{
-				printf("%ld\x", a);
-				break;
-			}
-			b = x / a;
-			x = b;
-			a = 1;
+			if (e > pf)
+				pf = e;
+			X /= e;
 		}
+		e++;/* D */
 	}
+	printf("%lu\n", pf);
 	return (0);
 }
