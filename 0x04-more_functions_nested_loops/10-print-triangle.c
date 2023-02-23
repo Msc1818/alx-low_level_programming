@@ -6,20 +6,25 @@
 * Description: use nested loop
 * Return: void. no return
 */
-
 void print_triangle(int size)
 {
-	int s, k;
+	int i = 0, j, n = size - 1;
 
-	if (size <= 0)
-		_putchar('\n');
-	else
-		for (s = 0; s < size; s++)
+	if (size > 0)
 	{
-		for (k = size - s - 1; k > 0; k--)
-			_putchar(' ');
-		for (k = s + 1; k > 0; k--)
-			_putchar('#');
-		_putchar('\n');
+		for (; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+				if (j < n)
+					_putchar(' ');
+				else
+					_putchar('#');
+			}
+			n--;
+			_putchar('\n');
+		}
 	}
+	else
+		_putchar('\n');
 }
