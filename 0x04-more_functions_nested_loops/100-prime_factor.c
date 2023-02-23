@@ -1,27 +1,24 @@
-#include <stdlib.h>
-#include<stdio.h>
+#include "main.h"
+#include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: return 0
+ * main - prints largest prime factor.
+ * Return: Always 0.
  */
+
 int main(void)
 {
-	unsigned long e = 2;
-	unsigned long pf = 0;
-	unsigned long X = 612852475143;
+	long int n, fp;
 
-	while (X > e)/* B */
+	n = 612852475143;
+	for (fp = 2; fp <= n; fp++)
 	{
-		while (X % e == 0)/* C */
+		if (n % fp == 0)
 		{
-			if (e > pf)
-				pf = e;
-			X /= e;
+			n /= fp;
+			fp--;
 		}
-		e++;/* D */
 	}
-	printf("%lu\n", pf);
+	printf("%ld\n", fp);
 	return (0);
 }
