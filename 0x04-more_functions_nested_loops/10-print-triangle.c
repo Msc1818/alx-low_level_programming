@@ -4,7 +4,7 @@
 * print_triangle - prints a triangle line with #
 * @size: an int given randomly
 * Description: use nested loop
-* Return: void. no return.
+* Return: void. no return
 */
 
 void print_triangle(int size)
@@ -13,7 +13,7 @@ void print_triangle(int size)
 
 	if (size <= 0)
 		_putchar('\n');
-	else 
+	else
 		for (s = 0; s < size; s++)
 	{
 		for (k = size - s - 1; k > 0; k--)
