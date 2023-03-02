@@ -4,17 +4,17 @@
  * @s1: input parameter
  * @s2: input parameter
  *
- * Return: 0 if equal or f if is different
+ * Return: 0 if equal or b if is different
  */
 int _strcmp(char *s1, char *s2)
 {
-	int e = 0;
-	int f = 0;
+	int a = 0;
+	int b = 0;
 
-	while (s1[e] != '\0' && f == 0)
+	while (s1[a] != '\0' && b == 0)
 	{
-		f = s1[e] - s2[e];
-		e++;
+		b = s1[a] - s2[a];
+		a++;
 	}
-	return (e);
+	return (b);
 }
